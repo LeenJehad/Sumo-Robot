@@ -1,0 +1,19 @@
+main
+	__CC2DW
+		____DoICP
+	myDelay_ms
+	Dcmotor
+		myDelay_ms
+		word2double
+			NRM3232
+				RES032
+				SETFUN32
+				FIXSIGN32
+		Div_32x32_FP
+			SETFDZ32
+			RES032
+			SETFOV32
+			SETFUN32
+		double2word
+			SETIOV3224
+interrupt
